@@ -1,0 +1,43 @@
+/.idea/
+# Compiled class file
+*.class
+*.iml
+target/
+logs/
+rebel.xml
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+.rebel.xml.bak
+*.MF
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+*velocity.log*
+
+# Eclipse #
+.classpath
+.project
+.settings/
+
+
+.DS_Store
+
+_dockerCerts/
+
+.factorypath
