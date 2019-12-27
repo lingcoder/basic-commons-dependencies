@@ -6,7 +6,7 @@
 
     <groupId>com.github.lingcoder</groupId>
     <artifactId>basic-commons-dependencies</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <name>basic-commons-dependencies</name>
     <description>第三方通用依赖包</description>
     <packaging>pom</packaging>
@@ -14,9 +14,9 @@
 
     <properties>
         <!-- apache包-->
-        <commons.lang3.version>3.9</commons.lang3.version>
-        <commons.text.version>1.8</commons.text.version>
-        <commons.collection4.versioon>4.4</commons.collection4.versioon>
+        <commons-lang3.version>3.9</commons-lang3.version>
+        <commons-text.version>1.8</commons-text.version>
+        <commons-collection4.version>4.4</commons-collection4.version>
         <commons-configuration.version>1.10</commons-configuration.version>
 
         <!-- json包-->
@@ -64,12 +64,13 @@
         <jwt.auth0.version>3.8.3</jwt.auth0.version>
         <rxjava.version>3.0.0-RC6</rxjava.version>
         <easyexcel.version>2.1.4</easyexcel.version>
-        <jetcache.version>2.5.15</jetcache.version>
+        <jetcache.version>2.5.16</jetcache.version>
         <poi.version>3.17</poi.version>
         <xerces.version>2.11.0</xerces.version>
         <jjwt.version>0.9.1</jjwt.version>
         <inject.version>1</inject.version>
         <zxing.version>3.4.0</zxing.version>
+        <postgresql.version>42.2.9</postgresql.version>
     </properties>
 
     <dependencyManagement>
@@ -110,12 +111,12 @@
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
-                <version>${commons.lang3.version}</version>
+                <version>${commons-lang3.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-text</artifactId>
-                <version>${commons.text.version}</version>
+                <version>${commons-text.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.mapstruct</groupId>
@@ -275,12 +276,17 @@
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-collections4</artifactId>
-                <version>${commons.collection4.versioon}</version>
+                <version>${commons-collection4.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.alicp.jetcache</groupId>
                 <artifactId>jetcache-starter-redis-lettuce</artifactId>
                 <version>${jetcache.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.postgresql</groupId>
+                <artifactId>postgresql</artifactId>
+                <version>${postgresql.version}</version>
             </dependency>
         </dependencies>
 
