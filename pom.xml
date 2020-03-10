@@ -6,7 +6,7 @@
 
     <groupId>com.github.lingcoder</groupId>
     <artifactId>basic-commons-dependencies</artifactId>
-    <version>1.0.9</version>
+    <version>1.0.10</version>
     <name>basic-commons-dependencies</name>
     <description>第三方通用依赖包</description>
     <packaging>pom</packaging>
@@ -26,7 +26,7 @@
         <!-- json包-->
         <fastjson.version>1.2.66</fastjson.version>
         <!-- 工具包-->
-        <hutool.version>5.2.0</hutool.version>
+        <hutool.version>5.2.1</hutool.version>
         <google.guava.version>28.2-jre</google.guava.version>
         <orika.version>1.5.4</orika.version>
         <okio.version>2.4.3</okio.version>
