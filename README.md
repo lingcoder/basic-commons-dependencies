@@ -1,2 +1,1 @@
-# basic-spring-boot-starter
-项目基础依赖
+# basic-commons-dependencies
