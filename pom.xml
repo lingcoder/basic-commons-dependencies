@@ -6,7 +6,7 @@
 
     <groupId>com.github.lingcoder</groupId>
     <artifactId>basic-commons-dependencies</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
     <name>basic-commons-dependencies</name>
     <description>第三方通用依赖包</description>
     <packaging>pom</packaging>
@@ -26,12 +26,12 @@
         <!-- json包-->
         <fastjson.version>1.2.67</fastjson.version>
         <!-- 工具包-->
-        <hutool.version>5.2.4</hutool.version>
+        <hutool.version>5.2.5</hutool.version>
         <google.guava.version>28.2-jre</google.guava.version>
         <orika.version>1.5.4</orika.version>
         <okio.version>2.4.3</okio.version>
         <!-- mybatis-plus-->
-        <mybatis.plus.version>3.3.1</mybatis.plus.version>
+        <mybatis.plus.version>3.3.1.tmp</mybatis.plus.version>
         <!--pojo转换-->
         <mapstruct.version>1.3.1.Final</mapstruct.version>
         <!-- API文档工具-->
@@ -45,7 +45,7 @@
         <!--高性能队列-->
         <disruptor.version>3.4.2</disruptor.version>
         <!--jwt-->
-        <jwt.auth0.version>3.8.3</jwt.auth0.version>
+        <jwt.auth0.version>3.9.0</jwt.auth0.version>
         <jjwt.version>0.9.1</jjwt.version>
         <!--事件编程-->
         <rxjava3.version>3.0.1</rxjava3.version>
@@ -55,7 +55,7 @@
         <!--        <poi.version>3.1.7</poi.version>-->
         <xerces.version>2.11.2</xerces.version>
         <!--多级缓存-->
-        <jetcache.version>2.6.0.RC</jetcache.version>
+        <jetcache.version>2.6.0</jetcache.version>
         <inject.version>1</inject.version>
         <!--二维码-->
         <zxing.version>3.4.0</zxing.version>
