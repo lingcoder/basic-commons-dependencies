@@ -6,7 +6,7 @@
 
     <groupId>com.github.lingcoder</groupId>
     <artifactId>basic-commons-dependencies</artifactId>
-    <version>1.1.1</version>
+    <version>1.1.2</version>
     <name>basic-commons-dependencies</name>
     <description>第三方通用依赖包</description>
     <packaging>pom</packaging>
@@ -24,9 +24,9 @@
         <commons-collection4.version>4.4</commons-collection4.version>
         <commons-configuration.version>1.10</commons-configuration.version>
         <!-- json包-->
-        <fastjson.version>1.2.67</fastjson.version>
+        <fastjson.version>1.2.68</fastjson.version>
         <!-- 工具包-->
-        <hutool.version>5.2.5</hutool.version>
+        <hutool.version>5.3.2</hutool.version>
         <google.guava.version>28.2-jre</google.guava.version>
         <orika.version>1.5.4</orika.version>
         <okio.version>2.4.3</okio.version>
@@ -39,7 +39,7 @@
         <!-- 权限校验-->
         <shiro.version>1.5.2</shiro.version>
         <!-- 模板引擎-->
-        <beetl.starter.version>1.2.24.RELEASE</beetl.starter.version>
+        <beetl.starter.version>1.2.29.RELEASE</beetl.starter.version>
         <!--验证码工具-->
         <easycaptcha.version>1.6.2</easycaptcha.version>
         <!--高性能队列-->
@@ -50,7 +50,7 @@
         <!--事件编程-->
         <rxjava3.version>3.0.1</rxjava3.version>
         <!--excel读写-->
-        <easyexcel.version>2.2.0-beta2</easyexcel.version>
+        <easyexcel.version>2.2.2</easyexcel.version>
         <poi.version>4.1.2</poi.version>
         <!--        <poi.version>3.1.7</poi.version>-->
         <xerces.version>2.11.2</xerces.version>
@@ -62,9 +62,9 @@
         <!--工作流-->
         <flowable.version>6.5.0</flowable.version>
         <!--规则引擎-->
-        <drools.version>7.34.0.Final</drools.version>
+        <drools.version>7.36.1.Final</drools.version>
         <!--数据库线程池-->
-        <druid.version>1.1.21</druid.version>
+        <druid.version>1.1.22</druid.version>
         <!--分表分库-->
         <sharding-jdbc.version>4.0.1</sharding-jdbc.version>
 
