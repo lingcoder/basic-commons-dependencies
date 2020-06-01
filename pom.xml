@@ -6,7 +6,7 @@
 
     <groupId>com.github.lingcoder</groupId>
     <artifactId>basic-commons-dependencies</artifactId>
-    <version>1.4.0</version>
+    <version>1.5.0</version>
     <name>basic-commons-dependencies</name>
     <description>第三方通用依赖包</description>
     <packaging>pom</packaging>
@@ -23,10 +23,12 @@
         <commons-text.version>1.8</commons-text.version>
         <commons-collection4.version>4.4</commons-collection4.version>
         <commons-configuration2.version>2.7</commons-configuration2.version>
+        <commons-beanutils.version>1.9.4</commons-beanutils.version>
+
         <!-- json包-->
-        <fastjson.version>1.2.68</fastjson.version>
+        <fastjson.version>1.2.70</fastjson.version>
         <!-- 工具包-->
-        <hutool.version>5.3.5</hutool.version>
+        <hutool.version>5.3.6</hutool.version>
         <google.guava.version>29.0-jre</google.guava.version>
         <orika.version>1.5.4</orika.version>
         <okio.version>2.4.3</okio.version>
@@ -51,18 +53,22 @@
         <rxjava3.version>3.0.4</rxjava3.version>
         <!--excel读写-->
         <easyexcel.version>2.2.3</easyexcel.version>
+
+        <easypoi.version>4.2.0</easypoi.version>
+
         <poi.version>4.1.2</poi.version>
         <!--        <poi.version>3.1.7</poi.version>-->
-        <xerces.version>2.11.2</xerces.version>
+        <xerces.version>2.12.0</xerces.version>
         <!--多级缓存-->
         <jetcache.version>2.6.0</jetcache.version>
+
         <inject.version>1</inject.version>
         <!--二维码-->
         <zxing.version>3.4.0</zxing.version>
         <!--工作流-->
         <flowable.version>6.5.0</flowable.version>
         <!--规则引擎-->
-        <drools.version>7.37.0.Final</drools.version>
+        <drools.version>7.38.0.Final</drools.version>
         <!--数据库线程池-->
         <druid.version>1.1.22</druid.version>
         <!--分表分库-->
@@ -71,6 +77,20 @@
         <gson.version>2.8.6</gson.version>
         <!--知识图谱-->
         <neo4j.version>4.0.4</neo4j.version>
+
+        <!--父子线程传递-->
+        <transmittable-thread-local.version>2.11.4</transmittable-thread-local.version>
+
+        <xxl-job.version>2.2.0</xxl-job.version>
+
+        <mybatis-spring-boot-starter.version>2.1.2</mybatis-spring-boot-starter.version>
+
+        <!--自定义springboot启动图案-->
+        <banner.version>1.0.2</banner.version>
+        <!--获取浏览器信息-->
+        <userAgent.version>1.21</userAgent.version>
+        <!--fastdfs文件存储客户端-->
+        <fastdfs-clientfastdfs-client.version>1.26.7</fastdfs-clientfastdfs-client.version>
 
         <!--spring-parent已包含的-->
         <!--
@@ -109,6 +129,11 @@
     <dependencyManagement>
 
         <dependencies>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>transmittable-thread-local</artifactId>
+                <version>${transmittable-thread-local.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.apache.shardingsphere</groupId>
                 <artifactId>sharding-jdbc-spring-boot-starter</artifactId>
@@ -182,14 +207,15 @@
                 <artifactId>gson</artifactId>
                 <version>${gson.version}</version>
             </dependency>
-            <dependency>
-                <groupId>org.apache.commons</groupId>
-                <artifactId>commons-configuration2</artifactId>
-                <version>${commons-configuration2.version}</version>
-            </dependency>
+
             <dependency>
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis.plus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus</artifactId>
                 <version>${mybatis.plus.version}</version>
             </dependency>
             <dependency>
@@ -197,12 +223,67 @@
                 <artifactId>java-jwt</artifactId>
                 <version>${jwt.auth0.version}</version>
             </dependency>
+
             <!-- Apache Common Begin -->
+            <dependency>
+                <groupId>commons-beanutils</groupId>
+                <artifactId>commons-beanutils</artifactId>
+                <version>${commons-beanutils.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-text</artifactId>
                 <version>${commons-text.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-collections4</artifactId>
+                <version>${commons-collection4.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-configuration2</artifactId>
+                <version>${commons-configuration2.version}</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi</artifactId>
+                <version>${poi.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi-ooxml</artifactId>
+                <version>${poi.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi-ooxml-schemas</artifactId>
+                <version>${poi.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>xerces</groupId>
+                <artifactId>xercesImpl</artifactId>
+                <version>${xerces.version}</version>
+            </dependency>
+
+            <!-- shiro-spring-boot-starter-->
+            <dependency>
+                <groupId>org.apache.shiro</groupId>
+                <artifactId>shiro-spring-boot-starter</artifactId>
+                <version>${shiro.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.shiro</groupId>
+                <artifactId>shiro-spring-boot-web-starter</artifactId>
+                <version>${shiro.version}</version>
+            </dependency>
+
+
+
             <dependency>
                 <groupId>org.mapstruct</groupId>
                 <artifactId>mapstruct</artifactId>
@@ -251,26 +332,7 @@
                 <artifactId>easyexcel</artifactId>
                 <version>${easyexcel.version}</version>
             </dependency>
-            <dependency>
-                <groupId>xerces</groupId>
-                <artifactId>xercesImpl</artifactId>
-                <version>${xerces.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.poi</groupId>
-                <artifactId>poi</artifactId>
-                <version>${poi.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.poi</groupId>
-                <artifactId>poi-ooxml</artifactId>
-                <version>${poi.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.poi</groupId>
-                <artifactId>poi-ooxml-schemas</artifactId>
-                <version>${poi.version}</version>
-            </dependency>
+
 
             <dependency>
                 <groupId>com.alibaba</groupId>
@@ -278,18 +340,7 @@
                 <version>${fastjson.version}</version>
             </dependency>
 
-            <!-- shiro-spring-boot-starter-->
-            <dependency>
-                <groupId>org.apache.shiro</groupId>
-                <artifactId>shiro-spring-boot-starter</artifactId>
-                <version>${shiro.version}</version>
-            </dependency>
 
-            <dependency>
-                <groupId>org.apache.shiro</groupId>
-                <artifactId>shiro-spring-boot-web-starter</artifactId>
-                <version>${shiro.version}</version>
-            </dependency>
 
             <!-- beetl -->
             <dependency>
@@ -318,11 +369,7 @@
                 <artifactId>rxjava</artifactId>
                 <version>${rxjava3.version}</version>
             </dependency>
-            <dependency>
-                <groupId>org.apache.commons</groupId>
-                <artifactId>commons-collections4</artifactId>
-                <version>${commons-collection4.version}</version>
-            </dependency>
+
             <dependency>
                 <groupId>com.alicp.jetcache</groupId>
                 <artifactId>jetcache-starter-redis-lettuce</artifactId>
@@ -363,6 +410,48 @@
                 <version>${neo4j.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>eu.bitwalker</groupId>
+                <artifactId>UserAgentUtils</artifactId>
+                <version>${userAgent.version}</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>com.xuxueli</groupId>
+                <artifactId>xxl-job-core</artifactId>
+                <version>${xxl-job.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis-spring-boot-starter.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.afterturn</groupId>
+                <artifactId>easypoi-base</artifactId>
+                <version>${easypoi.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>com.google.guava</groupId>
+                        <artifactId>guava</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>com.nepxion</groupId>
+                <artifactId>banner</artifactId>
+                <version>${banner.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.tobato</groupId>
+                <artifactId>fastdfs-client</artifactId>
+                <version>${fastdfs-client.version}</version>
+            </dependency>
 
 
             <!--spring-parent中已包含的-->
