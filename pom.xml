@@ -6,7 +6,7 @@
 
     <groupId>com.github.lingcoder</groupId>
     <artifactId>basic-commons-dependencies</artifactId>
-    <version>1.6.0</version>
+    <version>1.7.0</version>
     <name>basic-commons-dependencies</name>
     <description>第三方通用依赖包</description>
     <packaging>pom</packaging>
@@ -27,7 +27,7 @@
 
 
         <!-- json包-->
-        <fastjson.version>1.2.71</fastjson.version>
+        <fastjson.version>1.2.72</fastjson.version>
         <!-- 工具包-->
         <hutool.version>5.3.7</hutool.version>
         <google.guava.version>29.0-jre</google.guava.version>
@@ -53,7 +53,7 @@
         <!--事件编程-->
         <rxjava3.version>3.0.4</rxjava3.version>
         <!--excel读写-->
-        <easyexcel.version>2.2.5</easyexcel.version>
+        <easyexcel.version>2.2.6</easyexcel.version>
 
         <easypoi.version>4.2.0</easypoi.version>
 
@@ -92,6 +92,9 @@
         <fastdfs-clientfastdfs-client.version>1.27.2</fastdfs-clientfastdfs-client.version>
 
         <pagehelper.spring.boot.version>1.2.13</pagehelper.spring.boot.version>
+        <justAuth.version>1.15.5</justAuth.version>
+        <itext.version>7.1.11</itext.version>
+        <html2pdf.version>3.0.0</html2pdf.version>
 
 
         <!--spring-parent已包含的-->
@@ -129,8 +132,55 @@
     </properties>
 
     <dependencyManagement>
-
         <dependencies>
+            <!-- itext7 -->
+            <dependency>
+                <groupId>com.itextpdf</groupId>
+                <artifactId>kernel</artifactId>
+                <version>${itext.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.itextpdf</groupId>
+                <artifactId>io</artifactId>
+                <version>${itext.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.itextpdf</groupId>
+                <artifactId>layout</artifactId>
+                <version>${itext.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.itextpdf</groupId>
+                <artifactId>forms</artifactId>
+                <version>${itext.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.itextpdf</groupId>
+                <artifactId>pdfa</artifactId>
+                <version>${itext.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.itextpdf</groupId>
+                <artifactId>pdftest</artifactId>
+                <version>${itext.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.itextpdf</groupId>
+                <artifactId>font-asian</artifactId>
+                <version>${itext.version}</version>
+            </dependency>
+
+            <!--itext7 html转pdf用到的包-->
+            <dependency>
+                <groupId>com.itextpdf</groupId>
+                <artifactId>html2pdf</artifactId>
+                <version>${html2pdf.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>me.zhyd.oauth</groupId>
+                <artifactId>JustAuth</artifactId>
+                <version>${justAuth.version}</version>
+            </dependency>
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>transmittable-thread-local</artifactId>
@@ -285,7 +335,6 @@
             </dependency>
 
 
-
             <dependency>
                 <groupId>org.mapstruct</groupId>
                 <artifactId>mapstruct</artifactId>
@@ -341,7 +390,6 @@
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
             </dependency>
-
 
 
             <!-- beetl -->
