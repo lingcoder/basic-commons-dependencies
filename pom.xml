@@ -6,7 +6,7 @@
 
     <groupId>com.github.lingcoder</groupId>
     <artifactId>basic-commons-dependencies</artifactId>
-    <version>1.7.0</version>
+    <version>1.7.1</version>
     <name>basic-commons-dependencies</name>
     <description>第三方通用依赖包</description>
     <packaging>pom</packaging>
@@ -24,12 +24,13 @@
         <commons-collection4.version>4.4</commons-collection4.version>
         <commons-configuration2.version>2.7</commons-configuration2.version>
         <commons-beanutils.version>1.9.4</commons-beanutils.version>
+        <commons-codec.version>1.14</commons-codec.version>
 
 
         <!-- json包-->
         <fastjson.version>1.2.72</fastjson.version>
         <!-- 工具包-->
-        <hutool.version>5.3.7</hutool.version>
+        <hutool.version>5.3.9</hutool.version>
         <google.guava.version>29.0-jre</google.guava.version>
         <orika.version>1.5.4</orika.version>
         <okio.version>2.4.3</okio.version>
@@ -92,7 +93,7 @@
         <fastdfs-clientfastdfs-client.version>1.27.2</fastdfs-clientfastdfs-client.version>
 
         <pagehelper.spring.boot.version>1.2.13</pagehelper.spring.boot.version>
-        <justAuth.version>1.15.5</justAuth.version>
+        <justAuth.version>1.15.6</justAuth.version>
         <itext.version>7.1.11</itext.version>
         <html2pdf.version>3.0.0</html2pdf.version>
 
@@ -297,6 +298,12 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-configuration2</artifactId>
                 <version>${commons-configuration2.version}</version>
+            </dependency>
+            <!-- 提供Hex、DigestUtils、Base64等 -->
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>${commons-codec.version}</version>
             </dependency>
 
 
