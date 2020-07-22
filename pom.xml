@@ -6,7 +6,7 @@
 
     <groupId>com.github.lingcoder</groupId>
     <artifactId>basic-commons-dependencies</artifactId>
-    <version>1.7.1</version>
+    <version>1.7.2</version>
     <name>basic-commons-dependencies</name>
     <description>第三方通用依赖包</description>
     <packaging>pom</packaging>
@@ -39,11 +39,11 @@
         <!--pojo转换-->
         <mapstruct.version>1.3.1.Final</mapstruct.version>
         <!-- API文档工具-->
-        <knife4j.version>2.0.3</knife4j.version>
+        <knife4j.version>2.0.4</knife4j.version>
         <!-- 权限校验-->
         <shiro.version>1.5.3</shiro.version>
         <!-- 模板引擎-->
-        <beetl.starter.version>1.2.30.RELEASE</beetl.starter.version>
+        <beetl.starter.version>1.2.33.RELEASE</beetl.starter.version>
         <!--验证码工具-->
         <easycaptcha.version>1.6.2</easycaptcha.version>
         <!--高性能队列-->
@@ -70,18 +70,18 @@
         <!--工作流-->
         <flowable.version>6.5.0</flowable.version>
         <!--规则引擎-->
-        <drools.version>7.38.0.Final</drools.version>
+        <drools.version>7.40.0.Final</drools.version>
         <!--数据库线程池-->
         <druid.version>1.1.22</druid.version>
         <!--分表分库-->
-        <sharding-jdbc.version>4.1.0</sharding-jdbc.version>
+        <sharding-jdbc.version>4.1.1</sharding-jdbc.version>
 
         <gson.version>2.8.6</gson.version>
         <!--知识图谱-->
         <neo4j.version>4.0.4</neo4j.version>
 
         <!--父子线程传递-->
-        <transmittable-thread-local.version>2.11.4</transmittable-thread-local.version>
+        <transmittable-thread-local.version>2.11.5</transmittable-thread-local.version>
 
         <xxl-job.version>2.2.0</xxl-job.version>
 
