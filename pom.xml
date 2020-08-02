@@ -6,7 +6,7 @@
 
     <groupId>com.github.lingcoder</groupId>
     <artifactId>basic-commons-dependencies</artifactId>
-    <version>1.7.2</version>
+    <version>1.8.0</version>
     <name>basic-commons-dependencies</name>
     <description>第三方通用依赖包</description>
     <packaging>pom</packaging>
@@ -28,9 +28,9 @@
 
 
         <!-- json包-->
-        <fastjson.version>1.2.72</fastjson.version>
+        <fastjson.version>1.2.73</fastjson.version>
         <!-- 工具包-->
-        <hutool.version>5.3.9</hutool.version>
+        <hutool.version>5.3.10</hutool.version>
         <google.guava.version>29.0-jre</google.guava.version>
         <orika.version>1.5.4</orika.version>
         <okio.version>2.4.3</okio.version>
@@ -52,7 +52,7 @@
         <jwt.auth0.version>3.10.3</jwt.auth0.version>
         <jjwt.version>0.11.1</jjwt.version>
         <!--事件编程-->
-        <rxjava3.version>3.0.4</rxjava3.version>
+        <rxjava3.version>3.0.5</rxjava3.version>
         <!--excel读写-->
         <easyexcel.version>2.2.6</easyexcel.version>
 
@@ -70,7 +70,7 @@
         <!--工作流-->
         <flowable.version>6.5.0</flowable.version>
         <!--规则引擎-->
-        <drools.version>7.40.0.Final</drools.version>
+        <drools.version>7.41.0.Final</drools.version>
         <!--数据库线程池-->
         <druid.version>1.1.22</druid.version>
         <!--分表分库-->
@@ -96,6 +96,7 @@
         <justAuth.version>1.15.6</justAuth.version>
         <itext.version>7.1.11</itext.version>
         <html2pdf.version>3.0.0</html2pdf.version>
+        <skywalking.version>8.0.1</skywalking.version>
 
 
         <!--spring-parent已包含的-->
@@ -134,6 +135,17 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.apache.skywalking</groupId>
+                <artifactId>apm-toolkit-logback-1.x</artifactId>
+                <version>${skywalking.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.skywalking</groupId>
+                <artifactId>apm-toolkit-trace</artifactId>
+                <version>${skywalking.version}</version>
+            </dependency>
             <!-- itext7 -->
             <dependency>
                 <groupId>com.itextpdf</groupId>
