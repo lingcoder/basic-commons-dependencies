@@ -6,7 +6,7 @@
 
     <groupId>com.github.lingcoder</groupId>
     <artifactId>basic-commons-dependencies</artifactId>
-    <version>1.9.0</version>
+    <version>1.9.1</version>
     <name>basic-commons-dependencies</name>
     <description>第三方通用依赖包</description>
     <packaging>pom</packaging>
@@ -32,12 +32,12 @@
         <!-- json包-->
         <fastjson.version>1.2.73</fastjson.version>
         <!-- 工具包-->
-        <hutool.version>5.3.10</hutool.version>
+        <hutool.version>5.4.0</hutool.version>
         <google.guava.version>29.0-jre</google.guava.version>
         <orika.version>1.5.4</orika.version>
         <okio.version>2.4.3</okio.version>
         <!-- mybatis-plus-->
-        <mybatis.plus.version>3.3.2</mybatis.plus.version>
+        <mybatis.plus.version>3.4.0</mybatis.plus.version>
         <!--pojo转换-->
         <mapstruct.version>1.3.1.Final</mapstruct.version>
         <!-- API文档工具-->
@@ -54,7 +54,7 @@
         <jwt.auth0.version>3.10.3</jwt.auth0.version>
         <jjwt.version>0.11.1</jjwt.version>
         <!--事件编程-->
-        <rxjava3.version>3.0.5</rxjava3.version>
+        <rxjava3.version>3.0.6</rxjava3.version>
         <!--excel读写-->
         <easyexcel.version>2.2.6</easyexcel.version>
 
@@ -72,7 +72,7 @@
         <!--工作流-->
         <flowable.version>6.5.0</flowable.version>
         <!--规则引擎-->
-        <drools.version>7.41.0.Final</drools.version>
+        <drools.version>7.42.0.Final</drools.version>
         <!--数据库线程池-->
         <druid.version>1.1.22</druid.version>
         <!--分表分库-->
@@ -96,9 +96,10 @@
 
         <pagehelper.spring.boot.version>1.2.13</pagehelper.spring.boot.version>
         <justAuth.version>1.15.6</justAuth.version>
-        <itext.version>7.1.11</itext.version>
+        <itext.version>7.1.12</itext.version>
         <html2pdf.version>3.0.0</html2pdf.version>
-        <skywalking.version>8.0.1</skywalking.version>
+        <skywalking.version>8.1.0</skywalking.version>
+        <logstash-logback-encoder.version>6.4</logstash-logback-encoder.version>
 
 
         <!--spring-parent已包含的-->
@@ -361,7 +362,11 @@
                 <version>${shiro.version}</version>
             </dependency>
 
-
+            <dependency>
+                <groupId>net.logstash.logback</groupId>
+                <artifactId>logstash-logback-encoder</artifactId>
+                <version>${logstash-logback-encoder.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.mapstruct</groupId>
                 <artifactId>mapstruct</artifactId>
