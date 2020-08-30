@@ -6,7 +6,7 @@
 
     <groupId>com.github.lingcoder</groupId>
     <artifactId>basic-commons-dependencies</artifactId>
-    <version>1.9.1</version>
+    <version>1.10.0</version>
     <name>basic-commons-dependencies</name>
     <description>第三方通用依赖包</description>
     <packaging>pom</packaging>
@@ -32,7 +32,7 @@
         <!-- json包-->
         <fastjson.version>1.2.73</fastjson.version>
         <!-- 工具包-->
-        <hutool.version>5.4.0</hutool.version>
+        <hutool.version>5.4.1</hutool.version>
         <google.guava.version>29.0-jre</google.guava.version>
         <orika.version>1.5.4</orika.version>
         <okio.version>2.4.3</okio.version>
@@ -100,6 +100,7 @@
         <html2pdf.version>3.0.0</html2pdf.version>
         <skywalking.version>8.1.0</skywalking.version>
         <logstash-logback-encoder.version>6.4</logstash-logback-encoder.version>
+        <ip2region.version>1.7.2</ip2region.version>
 
 
         <!--spring-parent已包含的-->
@@ -138,6 +139,11 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.lionsoul</groupId>
+                <artifactId>ip2region</artifactId>
+                <version>${ip2region.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.apache.skywalking</groupId>
                 <artifactId>apm-toolkit-logback-1.x</artifactId>
