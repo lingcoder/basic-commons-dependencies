@@ -6,7 +6,7 @@
 
     <groupId>com.github.lingcoder</groupId>
     <artifactId>basic-commons-dependencies</artifactId>
-    <version>1.10.0</version>
+    <version>1.10.1</version>
     <name>basic-commons-dependencies</name>
     <description>第三方通用依赖包</description>
     <packaging>pom</packaging>
@@ -32,7 +32,7 @@
         <!-- json包-->
         <fastjson.version>1.2.73</fastjson.version>
         <!-- 工具包-->
-        <hutool.version>5.4.1</hutool.version>
+        <hutool.version>5.4.3</hutool.version>
         <google.guava.version>29.0-jre</google.guava.version>
         <orika.version>1.5.4</orika.version>
         <okio.version>2.4.3</okio.version>
@@ -43,7 +43,7 @@
         <!-- API文档工具-->
         <knife4j.version>2.0.4</knife4j.version>
         <!-- 权限校验-->
-        <shiro.version>1.5.3</shiro.version>
+        <shiro.version>1.6.0</shiro.version>
         <!-- 模板引擎-->
         <beetl.starter.version>1.2.33.RELEASE</beetl.starter.version>
         <!--验证码工具-->
@@ -72,7 +72,7 @@
         <!--工作流-->
         <flowable.version>6.5.0</flowable.version>
         <!--规则引擎-->
-        <drools.version>7.42.0.Final</drools.version>
+        <drools.version>7.43.1.Final</drools.version>
         <!--数据库线程池-->
         <druid.version>1.1.22</druid.version>
         <!--分表分库-->
@@ -139,6 +139,13 @@
 
     <dependencyManagement>
         <dependencies>
+
+            <dependency>
+                <groupId>org.activiti</groupId>
+                <artifactId>activiti-spring-boot-starter</artifactId>
+                <version>7.1.0.M6</version>
+            </dependency>
+
             <dependency>
                 <groupId>org.lionsoul</groupId>
                 <artifactId>ip2region</artifactId>
@@ -461,6 +468,16 @@
             <dependency>
                 <groupId>com.alicp.jetcache</groupId>
                 <artifactId>jetcache-starter-redis-lettuce</artifactId>
+                <version>${jetcache.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alicp.jetcache</groupId>
+                <artifactId>jetcache-starter-redis-springdata</artifactId>
+                <version>${jetcache.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alicp.jetcache</groupId>
+                <artifactId>jetcache-starter-redis</artifactId>
                 <version>${jetcache.version}</version>
             </dependency>
 
