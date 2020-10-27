@@ -6,7 +6,7 @@
 
     <groupId>com.github.lingcoder</groupId>
     <artifactId>basic-commons-dependencies</artifactId>
-    <version>1.10.1</version>
+    <version>1.11.0</version>
     <name>basic-commons-dependencies</name>
     <description>第三方通用依赖包</description>
     <packaging>pom</packaging>
@@ -30,31 +30,31 @@
 
 
         <!-- json包-->
-        <fastjson.version>1.2.73</fastjson.version>
+        <fastjson.version>1.2.74</fastjson.version>
         <!-- 工具包-->
-        <hutool.version>5.4.3</hutool.version>
+        <hutool.version>5.4.6</hutool.version>
         <google.guava.version>29.0-jre</google.guava.version>
         <orika.version>1.5.4</orika.version>
         <okio.version>2.4.3</okio.version>
         <!-- mybatis-plus-->
         <mybatis.plus.version>3.4.0</mybatis.plus.version>
         <!--pojo转换-->
-        <mapstruct.version>1.3.1.Final</mapstruct.version>
+        <mapstruct.version>1.4.1.Final</mapstruct.version>
         <!-- API文档工具-->
-        <knife4j.version>2.0.4</knife4j.version>
+        <knife4j.version>2.0.6</knife4j.version>
         <!-- 权限校验-->
         <shiro.version>1.6.0</shiro.version>
         <!-- 模板引擎-->
-        <beetl.starter.version>1.2.33.RELEASE</beetl.starter.version>
+        <beetl.starter.version>1.2.35.RELEASE</beetl.starter.version>
         <!--验证码工具-->
         <easycaptcha.version>1.6.2</easycaptcha.version>
         <!--高性能队列-->
         <disruptor.version>3.4.2</disruptor.version>
         <!--jwt-->
         <jwt.auth0.version>3.10.3</jwt.auth0.version>
-        <jjwt.version>0.11.1</jjwt.version>
+        <jjwt.version>0.11.2</jjwt.version>
         <!--事件编程-->
-        <rxjava3.version>3.0.6</rxjava3.version>
+        <rxjava3.version>3.0.7</rxjava3.version>
         <!--excel读写-->
         <easyexcel.version>2.2.6</easyexcel.version>
 
@@ -70,11 +70,11 @@
         <!--二维码-->
         <zxing.version>3.4.0</zxing.version>
         <!--工作流-->
-        <flowable.version>6.5.0</flowable.version>
+        <flowable.version>6.6.0</flowable.version>
         <!--规则引擎-->
-        <drools.version>7.43.1.Final</drools.version>
+        <drools.version>7.45.0.Final</drools.version>
         <!--数据库线程池-->
-        <druid.version>1.1.22</druid.version>
+        <druid.version>1.2.1</druid.version>
         <!--分表分库-->
         <sharding-jdbc.version>4.1.1</sharding-jdbc.version>
 
@@ -95,7 +95,7 @@
         <fastdfs-clientfastdfs-client.version>1.27.2</fastdfs-clientfastdfs-client.version>
 
         <pagehelper.spring.boot.version>1.2.13</pagehelper.spring.boot.version>
-        <justAuth.version>1.15.6</justAuth.version>
+        <justAuth.version>1.15.8</justAuth.version>
         <itext.version>7.1.12</itext.version>
         <html2pdf.version>3.0.0</html2pdf.version>
         <skywalking.version>8.1.0</skywalking.version>
@@ -139,12 +139,6 @@
 
     <dependencyManagement>
         <dependencies>
-
-            <dependency>
-                <groupId>org.activiti</groupId>
-                <artifactId>activiti-spring-boot-starter</artifactId>
-                <version>7.1.0.M6</version>
-            </dependency>
 
             <dependency>
                 <groupId>org.lionsoul</groupId>
