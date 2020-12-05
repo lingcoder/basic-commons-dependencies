@@ -6,7 +6,7 @@
 
     <groupId>com.github.lingcoder</groupId>
     <artifactId>basic-commons-dependencies</artifactId>
-    <version>1.12.1</version>
+    <version>1.12.2</version>
     <name>basic-commons-dependencies</name>
     <description>第三方通用依赖包</description>
     <packaging>pom</packaging>
@@ -39,7 +39,7 @@
         <!--pojo转换-->
         <mapstruct.version>1.4.1.Final</mapstruct.version>
         <!-- API文档工具-->
-        <knife4j.version>2.0.8</knife4j.version>
+        <knife4j.version>3.0.2</knife4j.version>
         <!-- 权限校验-->
         <shiro.version>1.7.0</shiro.version>
         <!-- 模板引擎-->
