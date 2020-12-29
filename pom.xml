@@ -6,7 +6,7 @@
 
     <groupId>com.github.lingcoder</groupId>
     <artifactId>basic-commons-dependencies</artifactId>
-    <version>1.12.2</version>
+    <version>1.12.3</version>
     <name>basic-commons-dependencies</name>
     <description>第三方通用依赖包</description>
     <packaging>pom</packaging>
@@ -32,7 +32,7 @@
         <!-- json包-->
         <fastjson.version>1.2.75</fastjson.version>
         <!-- 工具包-->
-        <hutool.version>5.5.2</hutool.version>
+        <hutool.version>5.5.5</hutool.version>
         <google.guava.version>30.0-jre</google.guava.version>
         <!-- mybatis-plus-->
         <mybatis.plus.version>3.4.1</mybatis.plus.version>
@@ -72,7 +72,7 @@
         <!--规则引擎-->
         <drools.version>7.47.0.Final</drools.version>
         <!--数据库线程池-->
-        <druid.version>1.2.2</druid.version>
+        <druid.version>1.2.4</druid.version>
         <!--分表分库-->
         <sharding-jdbc.version>4.1.1</sharding-jdbc.version>
 
