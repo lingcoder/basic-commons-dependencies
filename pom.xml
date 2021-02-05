@@ -6,7 +6,7 @@
 
     <groupId>com.github.lingcoder</groupId>
     <artifactId>basic-commons-dependencies</artifactId>
-    <version>1.12.3</version>
+    <version>2020.2</version>
     <name>basic-commons-dependencies</name>
     <description>第三方通用依赖包</description>
     <packaging>pom</packaging>
@@ -32,10 +32,10 @@
         <!-- json包-->
         <fastjson.version>1.2.75</fastjson.version>
         <!-- 工具包-->
-        <hutool.version>5.5.5</hutool.version>
+        <hutool.version>5.5.8</hutool.version>
         <google.guava.version>30.0-jre</google.guava.version>
         <!-- mybatis-plus-->
-        <mybatis.plus.version>3.4.1</mybatis.plus.version>
+        <mybatis.plus.version>3.4.2</mybatis.plus.version>
         <!--pojo转换-->
         <mapstruct.version>1.4.1.Final</mapstruct.version>
         <!-- API文档工具-->
@@ -49,10 +49,10 @@
         <!--高性能队列-->
         <disruptor.version>3.4.2</disruptor.version>
         <!--jwt-->
-        <jwt.auth0.version>3.10.3</jwt.auth0.version>
+        <jwt.auth0.version>3.11.0</jwt.auth0.version>
         <jjwt.version>0.11.2</jjwt.version>
         <!--事件编程-->
-        <rxjava3.version>3.0.8</rxjava3.version>
+        <rxjava3.version>3.0.10</rxjava3.version>
         <!--excel读写-->
         <easyexcel.version>2.2.7</easyexcel.version>
 
@@ -70,7 +70,7 @@
         <!--工作流-->
         <flowable.version>6.6.0</flowable.version>
         <!--规则引擎-->
-        <drools.version>7.47.0.Final</drools.version>
+        <drools.version>7.49.0.Final</drools.version>
         <!--数据库线程池-->
         <druid.version>1.2.4</druid.version>
         <!--分表分库-->
@@ -93,11 +93,11 @@
         <fastdfs-clientfastdfs-client.version>1.27.2</fastdfs-clientfastdfs-client.version>
 
         <pagehelper.spring.boot.version>1.3.0</pagehelper.spring.boot.version>
-        <justAuth.version>1.15.8</justAuth.version>
+        <justAuth.version>1.15.9</justAuth.version>
         <itext.version>7.1.13</itext.version>
         <html2pdf.version>3.0.2</html2pdf.version>
-        <skywalking.version>8.3.0</skywalking.version>
-        <logstash-logback-encoder.version>6.4</logstash-logback-encoder.version>
+        <skywalking.version>8.4.0</skywalking.version>
+        <logstash-logback-encoder.version>6.6</logstash-logback-encoder.version>
         <ip2region.version>1.7.2</ip2region.version>
         <captcha.version>1.2.4</captcha.version>
 
@@ -248,11 +248,11 @@
                 <artifactId>javase</artifactId>
                 <version>${zxing.version}</version>
             </dependency>
-            <dependency>
-                <groupId>io.jsonwebtoken</groupId>
-                <artifactId>jjwt</artifactId>
-                <version>${jjwt.version}</version>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>io.jsonwebtoken</groupId>-->
+<!--                <artifactId>jjwt</artifactId>-->
+<!--                <version>${jjwt.version}</version>-->
+<!--            </dependency>-->
             <dependency>
                 <groupId>io.jsonwebtoken</groupId>
                 <artifactId>jjwt-api</artifactId>
