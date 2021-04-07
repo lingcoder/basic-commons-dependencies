@@ -6,7 +6,7 @@
 
     <groupId>com.github.lingcoder</groupId>
     <artifactId>basic-commons-dependencies</artifactId>
-    <version>2020.2</version>
+    <version>2020.4</version>
     <name>basic-commons-dependencies</name>
     <description>第三方通用依赖包</description>
     <packaging>pom</packaging>
@@ -30,18 +30,18 @@
 
 
         <!-- json包-->
-        <fastjson.version>1.2.75</fastjson.version>
+        <fastjson.version>1.2.76</fastjson.version>
         <!-- 工具包-->
-        <hutool.version>5.5.8</hutool.version>
+        <hutool.version>5.6.2</hutool.version>
         <google.guava.version>30.0-jre</google.guava.version>
         <!-- mybatis-plus-->
         <mybatis.plus.version>3.4.2</mybatis.plus.version>
         <!--pojo转换-->
-        <mapstruct.version>1.4.1.Final</mapstruct.version>
+        <mapstruct.version>1.4.2.Final</mapstruct.version>
         <!-- API文档工具-->
         <knife4j.version>3.0.2</knife4j.version>
         <!-- 权限校验-->
-        <shiro.version>1.7.0</shiro.version>
+        <shiro.version>1.7.1</shiro.version>
         <!-- 模板引擎-->
         <beetl.starter.version>1.2.35.RELEASE</beetl.starter.version>
         <!--验证码工具-->
@@ -52,9 +52,9 @@
         <jwt.auth0.version>3.11.0</jwt.auth0.version>
         <jjwt.version>0.11.2</jjwt.version>
         <!--事件编程-->
-        <rxjava3.version>3.0.10</rxjava3.version>
+        <rxjava3.version>3.0.11</rxjava3.version>
         <!--excel读写-->
-        <easyexcel.version>2.2.7</easyexcel.version>
+        <easyexcel.version>2.2.8</easyexcel.version>
 
         <easypoi.version>4.2.0</easypoi.version>
 
@@ -70,9 +70,9 @@
         <!--工作流-->
         <flowable.version>6.6.0</flowable.version>
         <!--规则引擎-->
-        <drools.version>7.49.0.Final</drools.version>
+        <drools.version>7.52.0.Final</drools.version>
         <!--数据库线程池-->
-        <druid.version>1.2.4</druid.version>
+        <druid.version>1.2.5</druid.version>
         <!--分表分库-->
         <sharding-jdbc.version>4.1.1</sharding-jdbc.version>
 
@@ -85,7 +85,7 @@
 
         <xxl-job.version>2.2.0</xxl-job.version>
 
-        <mybatis-spring-boot-starter.version>2.1.3</mybatis-spring-boot-starter.version>
+        <mybatis-spring-boot-starter.version>2.1.4</mybatis-spring-boot-starter.version>
 
         <!--获取浏览器信息-->
         <userAgent.version>1.21</userAgent.version>
@@ -94,7 +94,7 @@
 
         <pagehelper.spring.boot.version>1.3.0</pagehelper.spring.boot.version>
         <justAuth.version>1.15.9</justAuth.version>
-        <itext.version>7.1.13</itext.version>
+        <itext.version>7.1.14</itext.version>
         <html2pdf.version>3.0.2</html2pdf.version>
         <skywalking.version>8.4.0</skywalking.version>
         <logstash-logback-encoder.version>6.6</logstash-logback-encoder.version>
