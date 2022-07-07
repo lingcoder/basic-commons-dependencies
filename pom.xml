@@ -22,7 +22,7 @@
         <!-- apache包-->
         <commons-text.version>1.9</commons-text.version>
         <commons-collection4.version>4.4</commons-collection4.version>
-        <commons-configuration2.version>2.7</commons-configuration2.version>
+        <commons-configuration2.version>2.8.0</commons-configuration2.version>
         <commons-beanutils.version>1.9.4</commons-beanutils.version>
         <commons-codec.version>1.14</commons-codec.version>
         <!--2.6支持JDK7,2.7支持JDK8-->
