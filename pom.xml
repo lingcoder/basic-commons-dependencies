@@ -20,7 +20,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!-- apache包-->
-        <commons-text.version>1.9</commons-text.version>
+        <commons-text.version>1.10.0</commons-text.version>
         <commons-collection4.version>4.4</commons-collection4.version>
         <commons-configuration2.version>2.7</commons-configuration2.version>
         <commons-beanutils.version>1.9.4</commons-beanutils.version>
