@@ -32,11 +32,11 @@
         <hutool.version>5.8.25</hutool.version>
         <google.guava.version>33.0-jre</google.guava.version>
         <!-- mybatis-plus-->
-        <mybatis.plus.version>v3.5.3.1</mybatis.plus.version>
+        <mybatis.plus.version>v3.5.7</mybatis.plus.version>
         <!--pojo转换-->
-        <mapstruct.version>1.4.2.Final</mapstruct.version>
+        <mapstruct.version>1.6.0</mapstruct.version>
         <!-- API文档工具-->
-        <knife4j.version>3.0.2</knife4j.version>
+        <knife4j.version>4.5.0</knife4j.version>
         <!-- 权限校验-->
         <shiro.version>1.7.1</shiro.version>
         <!-- 模板引擎-->
