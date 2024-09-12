@@ -32,7 +32,7 @@
         <hutool.version>5.8.25</hutool.version>
         <google.guava.version>33.0-jre</google.guava.version>
         <!-- mybatis-plus-->
-        <mybatis.plus.version>3.4.2</mybatis.plus.version>
+        <mybatis.plus.version>v3.5.3.1</mybatis.plus.version>
         <!--pojo转换-->
         <mapstruct.version>1.4.2.Final</mapstruct.version>
         <!-- API文档工具-->
