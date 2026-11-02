@@ -30,7 +30,7 @@
 
         <!-- 工具包-->
         <hutool.version>5.8.25</hutool.version>
-        <google.guava.version>33.0-jre</google.guava.version>
+        <google.guava.version>33.7.1-jre</google.guava.version>
         <!-- mybatis-plus-->
         <mybatis.plus.version>v3.5.7</mybatis.plus.version>
         <!--pojo转换-->
